@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hourly Salary Calculator</title>
+    <link rel="icon" href="https://i.postimg.cc/6pgFry0M/logo.jpg" type="image">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<div class="container">
+        <div class="card border-success mb-3" style="width:100%;">
+              <div class="card-header bg-transparent border-success">
+                  <img src="https://i.postimg.cc/5yWXML2Q/header.png" alt="" width="100%">
+              </div>
+              <div class="card-body mt-3">
+                      <h5 class="card-title text-primary text-center" style="font-size:40px;">Employee Hourly Salary Calculator!</h5>
+                      
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" style="background-color:#018173 !important; color: white;">Hourly Salary</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Salary in Per Hour" aria-label="Salary" aria-describedby="HS" id="HS">
+                         </div>
+
+
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" style="background-color:#018173 !important; color: white;">Payable Worked Hours</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Total Hour" aria-label="Salary" aria-describedby="TH" id="TH">
+                        
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" style="background-color:#018170 !important; color: white;">Total Minute </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Payable Working Hour in Min" aria-label="Salary" aria-describedby="TM" id="TM">
+                        
+                        </div>
+                      <div class="input-group mb-3" style="margin-top: 50px;">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text"style="background-color:#1B72B5 !important; color: white;">Payable Salary </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Total Salary" aria-label="Salary" aria-describedby="PS" id="PS">
+                      </div>
+
+                
+              </div>
+                        <div class="col-md-12"> 
+                        <button type="button" class="btn btn-outline-primary" onclick="Cal()">Calculate</button>
+                        <button type="button" class="btn btn-outline-info" onclick="location.reload();" style="float: right;">Reload</button>
+                        </div>
+
+
+              
+              <div class="card-footer">
+                <br> <br><br>
+                  <img src="https://i.postimg.cc/mDHPq8BG/footer.jpg
+                  " alt="" width="100%">
+              </div>
+        </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.14.0/dist/sweetalert2.all.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
